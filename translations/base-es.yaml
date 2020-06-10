@@ -39,40 +39,40 @@ steamPage:
         This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned! 
 
 
-        [b]Standalone Advantages[/b]
+        [b]Ventajas del Juego Independiente[/b]
 
         [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
+            [*] Puntos de Referencia
+            [*] Patidas Ilimitadas
+            [*] Modo Oscuro
+            [*] Mas opciones
+            [*] Me permite seguir desarrollando shapez.io ❤️
+            [*] Mas Características en el futuro!
         [/list]
 
-        [b]Planned features & Community suggestions[/b]
+        [b]Características planeadas y sugerencias de la comunidad[/b]
 
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        Este juego es de código abierto - Todos pueden contribuir! Ademas de eso, Yo escucho [b]mucho[/b] a la comunidad! Intento leer todas las recomendaciones y tomar en cuenta la mayor cantidad de retroalimentación posible.
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Modo historia donde los edificios cuestan formas
+            [*] Mas niveles y edificios (Exclusivo del juego independiente)
+            [*] Diferentes mapas, y tal vez obstaculos en el mapa
+            [*] Creación del mapa configurable(Editar numero y tamaño de parches de recursos,la semilla, y mas)
+            [*] Mas tipos de formas
+            [*] Mas mejoras de rendimiento (Aunque el juego ya va bastante bien!)
+            [*] Modo para daltónicos
+            [*] Y mucho mas!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        Tambien echa un vistazo al trello-board para toda la planinficación! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
+    loading: Cargando
     error: Error
 
     # How big numbers are rendered, e.g. "10,000"
-    thousandsDivider: ","
+    thousandsDivider: "."
 
     # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
@@ -86,21 +86,21 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: hace un segundo
+        xSecondsAgo: hace <x> segundos
+        oneMinuteAgo: hace un minuto
+        xMinutesAgo: hace <x> minutos
+        oneHourAgo: hace una hora
+        xHoursAgo: hace <x> horas
+        oneDayAgo: hace un dia
+        xDaysAgo: hace <x> dias
 
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
         hoursAndMinutesShort: <hours>h <minutes>s
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minutos
 
     keys:
         tab: TAB
@@ -108,90 +108,90 @@ global:
         alt: ALT
         escape: ESC
         shift: SHIFT
-        space: SPACE
+        space: ESPACIO
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
     title: Demo Version
     intro: >-
-        Get the standalone to unlock all features!
+        Obten el juego independiente para desbloquear todas las características!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
+    play: Jugar
+    changelog: Registro de cambios
+    importSavegame: Importar
+    openSourceHint: Este juego es de código abierto!
+    discordLink: Servidor de Discord Oficial
+    helpTranslate: Ayuda a Traducir!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Perdon, Pero el juego corre lento en tu navegador! Obten el juego Independiente o descarga chrome para la experiencia completa.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Nivel <x>
+    savegameLevelUnknown: Nivel desconocido
 
     contests:
         contest_01_03062020:
             title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            desc: Gana <strong>$25</strong> Por la mejor base!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                Para devolverles algo, Pense que estaria bien hacer concursos semanales!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>Tema de esta semana:</strong> Construye la mejor base!
                 <br><br>
-                Here's the deal:<br>
+                Aqui esta el trato:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
+                    <li>Manda una captura de pantalla de tu base a <strong>contest@shapez.io</strong></li>
+                    <li>Puntos extra si lo subes a tus redes sociales!</li>
+                    <li>Escojere 5 capturas y las propondre a la comunidad de <strong>discord</strong> para que voten.</li>
+                    <li>El ganador obtendra <strong>$25</strong> (Paypal,Tarjeta de regalo de Amazon, lo que prefieras)</li>
                     <li>Deadline: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                Espero ver sus increibles creaciones!
 
-        showInfo: View
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
+        showInfo: Ver
+        contestOver: Este concurso ha terminado - Unete a discord para saber de mas concursos!
 
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
-        restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        delete: Eliminar
+        cancel: Cancelar
+        later: Despues
+        restart: Reiniciar
+        reset: Restablecer
+        getStandalone: Obtener juego independiente
+        deleteGame: Yo se lo que hago
+        viewUpdate: Ver actualización
+        showUpgrades: Ver mejoras
+        showKeybindings: Ver atajos de teclado
 
     importSavegameError:
-        title: Import Error
+        title: Error al importar
         text: >-
-            Failed to import your savegame:
+            Error al importar tu partida:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Partida importada
         text: >-
-            Your savegame has been successfully imported.
+            Tu partida ha sido importada exitosamente.
 
     gameLoadFailure:
-        title: Game is broken
+        title: El juego esta roto
         text: >-
-            Failed to load your savegame:
+            Fallo al cargar tu partida:
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Confirmar supresión
         text: >-
-            Are you sure you want to delete the game?
+            Estas seguro que quieres eliminar el juego?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Fallo al eliminar
         text: >-
-            Failed to delete the savegame:
+            Fallo al eliminar la partida:
 
     restartRequired:
         title: Restart required
